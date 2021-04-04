@@ -1,6 +1,11 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  background-image: url("https://64.media.tumblr.com/0afb4a286ed5ff1e87e5001e53bd9af0/98579c4338c82b96-60/s1280x1920/31ebbd73a1f3eeb374f60e93915c0d607fa494e7.jpg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: whitesmoke;
 }
 
 :root {
@@ -11,19 +16,11 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("https://64.media.tumblr.com/0afb4a286ed5ff1e87e5001e53bd9af0/98579c4338c82b96-60/s1280x1920/31ebbd73a1f3eeb374f60e93915c0d607fa494e7.jpg");
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-width: 100%;
-  height: auto;
-  background-color: whitesmoke;
 }
 
 .navigation {
   background-color: var(--primary-color);
   margin: 0rem;
-  max-width: 100%;
   top: 0;
   padding: 1rem;
 }
@@ -51,9 +48,11 @@ section {
 }
 
 .image {
+  /* position: relative;
   display: block;
-  width: 550px;
-  height: 70vh;
+  width: 650px; */
+  width: 100%;
+  height: auto;
   margin: auto;
   border-radius: 0.5rem;
 }

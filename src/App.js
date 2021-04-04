@@ -147,7 +147,7 @@ export default function App() {
       </div>
 
       <section>
-        {/* {arrDatabase[selectedData].map((lists) => {
+        {arrDatabase[selectedData].map((lists) => {
           return (
             <div className="mainArea" key={lists}>
               <div className="imageArea">
@@ -164,7 +164,7 @@ export default function App() {
               </div>
             </div>
           );
-        })} */}
+        })}
       </section>
     </div>
   );

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import "./styles.css";
 
 let database = {
@@ -41,8 +42,7 @@ let database = {
       name: "Lohri",
       description:
         "Lohri marks the end of winter, a time when the sun heads back to the North and stays longer each day warming the ground for the new crops soon to be sown. Lohri is always associated with Sikhs as it's their festival",
-      image:
-        "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/01/12/777294-lohri-thinkstock.jpg",
+      image: "https://www.thestatesman.com/wp-content/uploads/2019/12/8.jpg",
       rating: "8/10"
     },
     {
@@ -57,8 +57,7 @@ let database = {
       name: "Hola Mohalla",
       description:
         "Hola Mahalla is an important Indian Sikh festival held in Anandpur Sahib in Punjab which follows Hindu festival of Holi. Unlike festival of Holi, when people playfully throw colored powders on each other, Hola Mahalla is an occasion for the Sikhs to demonstrate their martial skills. Sikhs gather here in large numbers to witness a very impressive and colourful procession of Nihangs, in their traditional attire displaying their skill in the use of arms, horse riding, and other war-like sports",
-      image:
-        "https://images.unsplash.com/photo-1554772593-cc0206eee02b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      image: "http://hindustanvoyages.com/TourPackage/holla-mohlla.jpg",
       rating: "9.5/10"
     }
   ],
@@ -116,8 +115,7 @@ let database = {
       name: "Taxi",
       description:
         "Enojoy the travelling journey a little deep, why not to use a taxi for it !!",
-      image:
-        "https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/05/27/Pictures/covid-19-lockdown-in-bihar_da3237fe-9ff9-11ea-88a1-96031f43cf2a.jpg",
+      image: "https://upload.wikimedia.org/wikipedia/commons/0/03/TAXI.jpg",
       rating: "9/10"
     }
   ]
@@ -134,8 +132,9 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1 style={{ fontSize: "2rem", color: "red" }}>Punjab Tour</h1>
-
+      <nav className="navigation">
+        <h1 style={{ fontSize: "2rem", color: "red" }}>Punjab Tour</h1>
+      </nav>
       <div>
         {arrDatabase.map((items) => {
           return (
@@ -168,6 +167,18 @@ export default function App() {
           );
         })}
       </section>
+
+      <footer>
+        <h3>
+          Designed by{" "}
+          <a
+            style={{ color: "red", textDecoration: "none" }}
+            href="https://vishalkumar.netlify.app"
+          >
+            Vishal Kumar
+          </a>
+        </h3>
+      </footer>
     </div>
   );
 }

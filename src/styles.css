@@ -2,13 +2,34 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+:root {
+  --primary-color: rgb(26, 25, 25);
+  --font-color: rgb(252, 11, 11);
+}
+
 body {
   margin: 0;
   padding: 0;
+  background-image: url("https://64.media.tumblr.com/0afb4a286ed5ff1e87e5001e53bd9af0/98579c4338c82b96-60/s1280x1920/31ebbd73a1f3eeb374f60e93915c0d607fa494e7.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  background-color: whitesmoke;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  margin: 0rem;
+  top: 0;
+  padding: 1rem;
 }
 
 .button {
   margin: 0.4rem;
+  margin-top: 1rem;
   width: 140px;
   color: red;
   border-style: none;
@@ -17,15 +38,37 @@ body {
   font-weight: bold;
   height: 35px;
   border-radius: 0.8rem;
-  background-color: rgb(26, 25, 25);
+  background-color: var(--primary-color);
+}
+
+section {
+  margin: auto;
+  margin-top: 3rem;
+  max-width: 600px;
+  font-size: large;
+  color: white;
 }
 
 .image {
   display: block;
-  max-width: 500px;
+  max-width: 550px;
+  height: 70vh;
   margin: auto;
+  border-radius: 0.5rem;
+}
+img:hover {
+  box-shadow: 0 0 2px 2px rgba(0, 140, 186, 0.5);
 }
 
 imageArea {
   padding: 1rem;
+}
+.mainArea {
+  margin-bottom: 4rem;
+}
+
+footer {
+  background-color: var(--primary-color);
+
+  padding: 2rem;
 }

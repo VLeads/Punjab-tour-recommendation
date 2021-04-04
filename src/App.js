@@ -147,7 +147,7 @@ export default function App() {
       </div>
 
       <section>
-        {arrDatabase[selectedData].map((lists) => {
+        {datatabase[selectedData].map((lists) => {
           return (
             <div className="mainArea" key={lists}>
               <div className="imageArea">

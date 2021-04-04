@@ -170,7 +170,7 @@ export default function App() {
 
       <footer>
         <h3>
-          Designed by{" "}
+          <span style={{ color: "rgb(56, 79, 76)" }}>Designed by{"  "}</span>
           <a
             style={{ color: "red", textDecoration: "none" }}
             href="https://vishalkumar.netlify.app"

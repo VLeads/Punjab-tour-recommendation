@@ -23,7 +23,7 @@ body {
 .navigation {
   background-color: var(--primary-color);
   margin: 0rem;
-  width: 100%;
+  max-width: 100%;
   top: 0;
   padding: 1rem;
 }
@@ -52,7 +52,7 @@ section {
 
 .image {
   display: block;
-  max-width: 550px;
+  width: 550px;
   height: 70vh;
   margin: auto;
   border-radius: 0.5rem;
@@ -71,6 +71,6 @@ imageArea {
 footer {
   background-color: var(--primary-color);
   margin: auto;
-  width: 100%;
+  max-width: 100%;
   padding: 2rem;
 }

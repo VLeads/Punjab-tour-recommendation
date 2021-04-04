@@ -120,7 +120,7 @@ let database = {
 var arrDatabase = Object.keys(database);
 
 export default function App() {
-  const [selectedData, setSelectedData] = useState("");
+  const [selectedData, setSelectedData] = useState("Places");
 
   function buttonClickHandler(items) {
     setSelectedData(items);
@@ -134,11 +134,11 @@ export default function App() {
         {arrDatabase.map((items) => {
           return (
             <button
+              className="button"
+              key={items}
               onClick={() => {
                 buttonClickHandler(items);
               }}
-              key={items}
-              className="button"
             >
               {items}
             </button>

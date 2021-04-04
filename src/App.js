@@ -1,5 +1,5 @@
-import "./styles.css";
 import React, { useState } from "react";
+import "./styles.css";
 
 import goldenTemple from "./img/Golden-temple.jpg";
 import roseGarden from "./img/nehru-rose-garden.jpg";
@@ -120,10 +120,10 @@ let database = {
 var arrDatabase = Object.keys(database);
 
 export default function App() {
-  const [selectedData, setselectedData] = useState("");
+  const [selectedData, setSelectedData] = useState("");
 
   function buttonClickHandler(items) {
-    setselectedData(items);
+    setSelectedData(items);
   }
 
   return (
@@ -147,7 +147,7 @@ export default function App() {
       </div>
 
       <section>
-        {datatabase[selectedData].map((lists) => {
+        {database[selectedData].map((lists) => {
           return (
             <div className="mainArea" key={lists}>
               <div className="imageArea">

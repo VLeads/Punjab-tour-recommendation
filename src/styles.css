@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  margin: 0.4rem;
+  width: 140px;
+  color: red;
+  border-style: none;
+  outline-color: red;
+  font-size: large;
+  font-weight: bold;
+  height: 35px;
+  border-radius: 0.8rem;
+  background-color: rgb(26, 25, 25);
+}
+
+.image {
+  display: block;
+  max-width: 500px;
+  margin: auto;
+}
+
+imageArea {
+  padding: 1rem;
+}

@@ -7,4 +7,4 @@ Here is a simple punjab tour recommendation app to help you to see
 *   festival of punjab that add extra beauty to it
 *   ***also what about the food 😋.*** 
  
-```Visit and see yourself, [click here](https:punjabtour.netlify.app) !!```
+## Visit and see yourself, [click here](https:punjabtour.netlify.app) !!

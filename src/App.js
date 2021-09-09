@@ -100,7 +100,7 @@ let database = {
       description:
         "A convenient mode of transportation for people residing in Punjab.Daily lakhs of people travel through trains to their work",
       image:
-        "https://lh3.googleusercontent.com/proxy/mWQQJU0YcU_4naANanE6FWKXQUaRr3mf3iC57PeLTebb8Q_b1ytaSBShOgEzYhPrjYr3fMeOwONMJmQnb5ud41H-_AwkXxkIAi0YDduiT8FahL4",
+        "https://images.unsplash.com/photo-1514250609276-c577268ef8fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=406&q=80",
       rating: "8/10"
     },
     {
